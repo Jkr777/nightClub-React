@@ -1,0 +1,101 @@
+@media only screen and (max-width: 1040px) {
+  /* Price */
+  .price-container {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .price-card {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  .price-card__top {
+    padding: 5px;
+    align-items: center;
+  }
+} 
+@media only screen and (max-width: 700px) {
+  /* Price */
+  .price-card {
+    width: 100%;
+  }
+  .price-card__top__price {
+    font-size: 24px;
+    margin-top: 5px;
+  }
+  
+  /* About Us */
+  .about__data {
+    width: 100%;
+    padding: 0 5px;
+  }
+  .about__images {
+    flex-direction: column;
+  }
+  .about__images img {
+    width: 100%;
+  }
+  .about__images img:hover {
+    transform: none;
+    transition: none;
+  }
+
+  /* Booking */
+  #booking {
+    align-items: none;
+  }
+  .booking-title {
+    align-self: center;
+  }
+
+  /* admin auth */
+  .auth-container__form {
+    width: 95%;
+  }
+} 
+@media only screen and (max-width: 550px) {
+  body {
+    font-size: 16px;
+  }
+
+  /* Main  */
+  .artist-container {
+    width: 100%
+  }
+  .artist-container__name { 
+    letter-spacing: 0;
+    font-size: 20px;
+  }
+
+  /* Price */
+  .title {
+    letter-spacing: 0;
+    font-size: 20px;
+  }
+  .price-card__top {
+    font-size: 18px;
+  }
+  .price-card__top__price {
+    font-size: 20px;
+  }
+  /* About Us */
+  .about__title {
+    letter-spacing: 0;
+    font-size: 20px;
+  }
+
+  /* Booking */
+  .booking-title { 
+    letter-spacing: 0;
+    font-size: 20px;
+  }
+  .booking__card__details__title {
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+
+  /* Event Form */
+  .event-form__title {
+    font-size: 20px;
+  }
+}

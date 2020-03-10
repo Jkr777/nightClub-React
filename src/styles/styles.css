@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #142420;
+  font-size: 18px;
+}
+
+/* Header */
+
+.header__container {
+  flex-grow: 1;
+}
+
+.header__logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  letter-spacing: 3px;
+  color: #d6e9e3;
+}
+
+/* Main */
+
+.carousel__img {
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.artist-container {
+  position: absolute;
+  background-color: rgba(20, 36, 32, 0.5);
+  box-shadow: 1px 2px 1px 2px rgba(20, 36, 32, 0.04);
+  width: 60%;
+  height: 100px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.artist-container__name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 24px;
+  color: #d6e9e3;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.timer__item {
+  width: 100%;
+  background-color: #f7fbfa;
+  text-align: center;
+  padding: 2px 0 2px 0;
+  color: #142420;
+}
+
+.timer__item__name {
+  margin-bottom: 2px;
+}
+
+/* Booking */
+
+#booking {
+  display: flex;
+  color: #f7fbfa;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.booking-title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.booking__link:hover {
+  text-decoration: underline;
+}
+
+.booking__card__details {
+  margin-top: 15px;
+  background-color: #386659;
+  padding: 10px;
+}
+
+.booking__card__details__title {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* About Us */
+
+.about-container {
+  background-color: #f7fbfa; 
+  padding: 10px 0 20px 0;
+}
+
+.about__title {
+  color: #142420;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.about__data {
+  margin: 0 auto;
+  width: 90%;
+  box-sizing: border-box;
+  border-top: 1px solid #69ac99;
+}
+
+.about__images {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about__images img {
+  width: 25%; 
+}
+
+.about__images img:hover {
+  transform: translateY(15px);
+  transition: all;
+  transition-duration: 250ms;
+}
+
+/* Price */
+
+.price-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+
+.price-card {
+  width: 25%;
+  background-color: #f7fbfa;
+  color: #142420;
+  font-size: 18px;
+}
+
+.price-card__top {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  background-color: #386659;
+  color: #f7fbfa;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.price-card__top__price {
+  font-size: 38px;
+}
+
+.price-card__middle {
+  padding: 10px 15px;
+  border-bottom: 1px solid #386659;
+}
+
+.price-card__bottom {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  color: #f7fbfa;
+  letter-spacing: 1px;
+}
+
+/* Footer */
+
+.footer {
+  margin-top: 20px;
+  display: flex;
+  height: 60px;
+  flex-direction: column;
+  align-items: center;
+  color: #f7fbfa;
+}
+
+.footer__social__icon {
+  fill: #f7fbfa;
+  width: 40px;
+}
+
+/* admin auth */
+
+.auth-container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth-container__form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container__form__input {
+  margin-bottom: 10px;
+  padding: 5px 0px;
+  background-color: transparent;
+  border: none;
+  color:  #f7fbfa;
+  border-bottom: 1px solid #69ac99;
+}
+
+.auth-container__form__input::placeholder {
+  color: #f7fbfa;
+}
+.auth-container__form__input:focus {
+  outline: none;
+  border-bottom: 1px solid #f7fbfa;
+}
+
+.auth-container__form__btn {
+  width: 50%;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #142420;
+  letter-spacing: 1px;
+  background-color: #f7fbfa;
+  border: none;
+  border-radius: 2px;
+}
+
+.auth-container__form__btn:hover {
+  outline: none;
+  transition: all;
+  transition-duration: 100;
+  color: #f7fbfa;
+  background-color: #69ac99;
+}
+
+.error {
+  color: #f7fbfa;
+}
+
+/* Event Form */
+
+.event-form {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event-form__title {
+  color: #f7fbfa;
+}
+
+.file-input {
+  color: #f7fbfa;
+}
