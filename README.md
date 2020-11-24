@@ -1,5 +1,3 @@
-* For this project I used Visual Studio Code, my OS is Ubuntu 18.04.
-* heroku app link:  https://club-react000.herokuapp.com/
 
 * A night club website. You can create new events and add an image using '/register' or '/login' path. I don't have a debit credit card to use the google Maps api. For a better performance you should change the <iframe></iframe> with the npm package, google-map-react (you need a google map API). You have email/password authentication.
 
