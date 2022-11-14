@@ -1,5 +1,4 @@
 
-* A night club website. You can create new events and add an image using '/register' or '/login' path. I don't have a debit credit card to use the google Maps api. For a better performance you should change the <iframe></iframe> with the npm package, google-map-react (you need a google map API). You have email/password authentication.
 
 * about:
   - To run this project you need to change process.env.CLUB_API (./src/services/axios.js) with your environment variable or url. 
